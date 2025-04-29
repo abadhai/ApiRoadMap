@@ -16,3 +16,7 @@ This Spring Boot application demonstrates how to implement a **long-running asyn
 
 ### 1. Health Check
 
+### Collection
+https://github.com/abadhai/ApiRoadMap/blob/main/Long%20Running%20Resource%20Demo.postman_collection.json
+
+
