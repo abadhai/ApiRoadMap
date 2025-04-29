@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "3da61f88-7f13-4fcf-9295-e7dd027111ee",
+		"name": "Long Running Resource Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44508730"
+	},
+	"item": [
+		{
+			"name": "Create Order (POST)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/orders/create?orderId=99",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"create"
+					],
+					"query": [
+						{
+							"key": "orderId",
+							"value": "99"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Order Status (GET)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/orders/status/99",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"status",
+						"99"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Final Order (GET)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/orders/99",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"orders",
+						"99"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
